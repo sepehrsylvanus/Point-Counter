@@ -1,0 +1,65 @@
+@font-face {
+  font-family: cursed;
+  src: url(./font/CursedTimerUlil-Aznm.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black !important;
+}
+.point-container {
+  height: 100vh;
+}
+.point-container .point-board {
+  background-color: #1b244a;
+  color: white;
+  width: 40%;
+
+}
+.point-board .home-board .title {
+  font-family: Verdana;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 2rem;
+}
+.point-board .home-board .score-win {
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 127px;
+  font-family: cursed;
+  color: #f94f6d;
+  padding-top: 25px !important;
+}
+
+.point-board .home-board .buttons {
+  font-family: cursed;
+  color: #9aabd8;
+}
+.point-board .home-board .buttons button {
+  border: 3px solid #9aabd8;
+  background: none;
+  color: #9aabd8;
+  border-radius: 5px;
+  transition: background .3s,color .3s;
+}
+.point-board .home-board .buttons button:hover{
+color: #1b244a;
+background-color:#9aabd8 ;
+}
+.resetButton{
+  border: 3px solid #9aabd8;
+  background: none;
+  color: #9aabd8;
+  border-radius: 5px;
+  transition: background .3s,color .3s;
+
+}
+.resetButton:hover{
+  color: #1b244a;
+background-color:#9aabd8 ;
+
+}
